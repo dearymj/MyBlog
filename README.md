@@ -1,3 +1,7 @@
+# My-Blog
+https://my-blog-v2p4.onrender.com/
+
+>>>>>>> d582d84 (Updated VS Code assets)
 ### MJ Yuan's Blog Website
 
 A full-stack blog website that demonstrates modern web development techniques—from a dynamic, responsive front-end to a simple Express-based back-end API.
