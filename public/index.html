@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MJ Yuan's Blog</title>
+  <meta name="description" content="MJ Yuan's Blog - where art meets engineering." />
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="MJ Yuan's Blog" />
+  <meta property="og:description" content="MJ Yuan's blog: Blending art and engineering." />
+  <meta property="og:image" content="ProfileImage.JPG" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <link rel="icon" href="favicon.ico" />
+
+  <!-- Select2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+  <!-- Your main CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- jQuery (Select2 dependency) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Select2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="profile" role="banner">
+      <img src="ProfileImage.JPG" alt="Profile Image of MJ Yuan" class="profile-image" />
+      <h1>MJ Yuan (YMJ)</h1>
+      <p class="intro">Hello, my name is MJ Yuan (YMJ). I am both an artist and an engineer.</p>
+    </div>
+    <nav aria-label="Primary Navigation">
+      <ul>
+        <li>
+          <a class="linkedin" href="https://www.linkedin.com/in/mj-yuan-786678324/" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Dark/Light Mode Toggle -->
+    <button id="theme-toggle" aria-label="Toggle dark/light mode">Day/Night Mode Toggle</button>
+  </header>
+
+  <main>
+    <section class="video">
+      <h2 class="latest-creation">My latest creation</h2>
+      <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/ezLjm8SkO0o?si=FOGXt0_Ncka5Ajs7"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+      </iframe>
+    </section>
+
+    <section class="blog">
+      <h2>Recent Posts</h2>
+      <article class="post">
+        <h3>Exploring the Intersection of Art and Engineering</h3>
+        <p>
+          In today's post, I share insights on how creativity meets technology in my projects.
+          From sketches to prototypes, the journey is always fascinating and full of surprises.
+        </p>
+        <!-- Clicking this button will open a new page with the secret message -->
+        <button class="read-more secret-read-more">Read More</button>
+      </article>
+    </section>
+
+    <section class="resume">
+      <h2>My Resume</h2>
+      <p>Click below to view my resume:</p>
+      <button id="view-resume">View Resume</button>
+    </section>
+
+    <!-- New Comment Section -->
+    <section class="comments">
+      <h2>Leave a Comment</h2>
+      <form id="comment-form">
+        <textarea id="comment-text" placeholder="Your comment..." required></textarea>
+        <!-- The country dropdown will be enhanced by Select2 and populated dynamically -->
+        <select id="country" required>
+          <option value="">Select your country</option>
+        </select>
+        <button type="submit">Submit Comment</button>
+      </form>
+      <div id="comments-list">
+        <!-- Submitted comments will be rendered here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MJ Yuan. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Your custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
