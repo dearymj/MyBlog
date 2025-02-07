@@ -1,4 +1,5 @@
 # My-Blog
+The free server takes one minute to start responding:
 https://my-blog-v2p4.onrender.com/
 
 >>>>>>> d582d84 (Updated VS Code assets)
