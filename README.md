@@ -8,6 +8,7 @@ https://my-blog-v2p4.onrender.com/
 A full-stack blog website that demonstrates modern web development techniques—from a dynamic, responsive front-end to a simple Express-based back-end API.
 
 ### 🖼 Project Screenshot  
+
 ![My Blog Preview](./public/blog-screenshot.jpg)
 
 ## Overview
